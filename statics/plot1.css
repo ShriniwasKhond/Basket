@@ -1,0 +1,13 @@
+h3{
+    align-self: center;
+   }
+   div{height: 1300px;
+     width: 1300px;
+     background-color: bisque;
+   }
+   div .visual-container {
+     background-color: bisque;
+       display: flex;
+       align-items: center;
+       margin: 0;
+     }
