@@ -1,18 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <style>
-      body {
-        background-color: bisque;
-      }
-    </style>
-    <link rel="stylesheet" type="text/css" href="static/css/plot1.css">
-    <h3>Natual Gas Visualizations</h3>
-  </head>
-  <body style="background-color: bisque;">
-  <div background-color="bisque"; class="visual-container">
-  {{graph_1| safe}}
-
-</div> 
+<html>
+<head>
+    <title>Association Rules</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/plot.css') }}">
+</head>
+<body>
+    <h1>Association Rules</h1>
+    <form action="/generate_rules" method="post" enctype="multipart/form-data">
+        <input type="file" name="data_file" accept=".csv">
+        <button type="submit">Generate Rules</button>
+    </form>
 </body>
 </html>
