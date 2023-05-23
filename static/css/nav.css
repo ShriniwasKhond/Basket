@@ -1,8 +1,9 @@
 
 /* CSS styles for the navigation bar */
+
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #B10306;
   position: fixed;
   top: 0;
   z-index: 100;
