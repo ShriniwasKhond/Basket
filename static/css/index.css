@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: url(/static/images/background-01.jpeg);
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-attachment: scroll;
+}
+
+.button {
+    background-color: #B10306;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display : inline-block;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+     align-items: center;
+}
+
+h1 {
+color:white;
+text-align: center;
+font-family: cursive;
+overflow: hidden;
+background-image: linear-gradient(to right,  #B10306, #CE3D40) ;
+width:100%;
+height:20%;
+}

@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Association Rules</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/plot.css') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
 </head>
 <body>
-    <h1>Association Rules</h1>
+    <h1>Welcome to Food Court</h1>
     <form action="/generate_rules" method="post" enctype="multipart/form-data">
-        <input type="file" name="data_file" accept=".csv">
-        <button type="submit">Generate Rules</button>
+        <div>
+            <input class="button" type="file" name="data_file" accept=".csv">
+        </div>
+        <div class="button">
+            <button class="button" type="submit">Submit</button>
+        </div>
     </form>
 </body>
 </html>
